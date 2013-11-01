@@ -43,6 +43,17 @@ When looking for directions from your current location to a spot, you need to PO
 
 1. Name of spot
 
+# tdd
+
+I have chosen [Mocah](http://visionmedia.github.io/mocha/#installation) for the testing framework (until something else looks better).
+
+## running tests
+
+To run the tests, type the following into your terminal at the root level of this project:
+
+    mocah
+
+
 # resources
 
 Here is a list of resources that we might need to use for reference:
@@ -52,3 +63,13 @@ Here is a list of resources that we might need to use for reference:
 3. http://docs.mongodb.org/manual/applications/geospatial-indexes/
 4. http://www.yelp.com/developers/documentation/v2/search_api
 5. https://nodejsmodules.org/pkg/mocha
+6. http://visionmedia.github.io/mocha/
+7. https://help.github.com/articles/github-flavored-markdown
+
+# tasks
+
+- [ ] design schema
+- [ ] add express files
+- [ ] add tests for adding a spot
+- [ ] add tests for listing spots
+- [ ] add tests for removing spots
