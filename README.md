@@ -50,4 +50,5 @@ Here is a list of resources that we might need to use for reference:
 1. https://developers.google.com/maps/documentation/geocoding/#Geocoding
 2. http://nodejs.org/
 3. http://docs.mongodb.org/manual/applications/geospatial-indexes/
-4. 
+4. http://www.yelp.com/developers/documentation/v2/search_api
+5. https://nodejsmodules.org/pkg/mocha
