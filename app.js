@@ -30,6 +30,13 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/users', user.list);
 
+app.get('/hello.txt', function(req, res){
+  var body = 'Hello World';
+  res.setHeader('Content-Type', 'text/plain');
+  res.setHeader('Content-Length', body.length);
+  res.end(body);
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
